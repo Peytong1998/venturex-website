@@ -65,7 +65,8 @@ export default function Home() {
         method: "POST",
         body: formData,
       });
-      if (response.ok) {
+      const result = await response.json();
+      if (result.success) {
         setFormStatus("success");
         e.currentTarget.reset();
       } else {
