@@ -306,7 +306,7 @@ export default function Home() {
             <div className="lg:col-span-2 space-y-6">
               <div className="space-y-4">
                 <p className="text-lg text-gray-700 leading-relaxed">
-                  Hello! I'm <strong>Peyton Griffin</strong>, a Braze expert and consultant with over 5 years of experience. During my 4.5 years at Braze, I supported customers globally in Technical Support before moving into Premium Support in role, where I worked directly with McDonald's on their worldwide Braze strategy and then later advanced into a Team Lead position at Braze. Now, as a founding partner at For Now Marketing, I continue to help companies bring their customer lifecycle strategies to life with Braze.
+                  Hello! I'm <strong>Peyton Griffin</strong>, a Braze expert and consultant with over 5 years of experience. During my 4.5 years at Braze, I supported customers globally in Technical Support before moving into a Premium Support role, where I worked directly with McDonald's on supporting their worldwide Braze strategy and then later advanced into a Team Lead position at Braze. Now, as a founding member at For Now Marketing, I continue to help companies bring their customer lifecycle strategies to life with Braze.
                 </p>
                 
                 <p className="text-lg text-gray-700 leading-relaxed">
