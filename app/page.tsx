@@ -356,7 +356,6 @@ export default function Home() {
 
       {/* Contact Section */}
       <section id="contact" className="w-full py-28 px-4 bg-gray-50">
-<<<<<<< HEAD
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-8 text-center">Contact</h2>
           
@@ -415,25 +414,6 @@ export default function Home() {
               />
             </div>
           </div>
-=======
-        <div className="max-w-xl mx-auto">
-          <h2 className="text-3xl font-bold mb-8 text-center">Contact</h2>
-          <form onSubmit={handleContactSubmit} className="flex flex-col gap-6 bg-white p-10 rounded-xl shadow-sm border border-gray-100">
-            <input type="hidden" name="access_key" value="c267b696-2d11-42de-9e07-a1521263edd4" />
-            {/* Honeypot field for spam protection */}
-            <input type="text" name="botcheck" style={{ display: 'none' }} tabIndex={-1} autoComplete="off" />
-            <input type="text" name="name" placeholder="Name" className={`px-4 py-3 rounded border border-gray-200 focus:border-[${ACCENT}] outline-none text-base`} required />
-            <input type="email" name="email" placeholder="Email" className={`px-4 py-3 rounded border border-gray-200 focus:border-[${ACCENT}] outline-none text-base`} required />
-            <textarea name="message" placeholder="Message" rows={5} className={`px-4 py-3 rounded border border-gray-200 focus:border-[${ACCENT}] outline-none text-base resize-none`} required />
-            <button type="submit" className="mt-2 px-8 py-3 rounded-full bg-[#3EA8FF] text-white font-semibold text-lg shadow hover:opacity-90 transition" disabled={submitting}>{submitting ? "Sending..." : "Send Message"}</button>
-          </form>
-          {formStatus === "success" && (
-            <div className="mt-4 text-green-600 text-center font-semibold">Thank you! Your message has been sent.</div>
-          )}
-          {formStatus === "error" && (
-            <div className="mt-4 text-red-600 text-center font-semibold">Oops! Something went wrong. Please try again.</div>
-          )}
->>>>>>> 5454c0b403171603a8930fe00564e7b56fb777d4
         </div>
       </section>
 
