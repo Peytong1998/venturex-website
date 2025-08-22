@@ -305,22 +305,22 @@ export default function Home() {
             {/* Personal Story */}
             <div className="lg:col-span-2 space-y-6">
               <div className="space-y-4">
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Hello! I'm <strong>Peyton Griffin</strong>, a Braze expert and consultant with over 5 years of experience. During my 4.5 years at Braze, I supported customers globally in Technical Support before moving into a Premium Support role, where I worked directly with McDonald's on supporting their worldwide Braze strategy and then later advanced into a Team Lead position at Braze. Now, as a founding member at For Now Marketing, I continue to help companies bring their customer lifecycle strategies to life with Braze.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  For the past year, I've been working as a Braze Consultant, and I'm now a founding partner at <strong>For Now Marketing</strong>. Alongside my agency work, I also take on a very limited number of side consulting projects for teams who need extra Braze expertise.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  Outside of work, you'll usually find me at the gym, catching up on sports, talking about cars, or planning my next adventure as a self-proclaimed wannabe world traveler.
-                </p>
-                
-                <p className="text-lg text-gray-700 leading-relaxed">
-                  If you'd like to connect, feel free to reach out here or DM me on LinkedIn. I'd love the chance to work with you!
-                </p>
-              </div>
+          <p className="text-lg text-gray-700 leading-relaxed">
+              Hello! I'm <strong>Peyton Griffin</strong>, a Braze expert and consultant with over 5 years of experience. During my 4.5 years at Braze, I supported customers globally in Technical Support before moving into a Premium Support role, where I worked directly with McDonald's on their worldwide Braze strategy. I later advanced into a Team Lead position, guiding the Premium Support team through complex challenges for Braze’s largest global customers.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed">
+              For the past year, I’ve been working as a Braze Consultant and a founding member of For Now Marketing, where I help companies bring their customer lifecycle strategies to life. Alongside my agency work, I also take on a limited number of side consulting projects for teams who need extra Braze expertise.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Outside of work, you'll usually find me at the gym, catching up on sports, talking cars, or planning my next adventure as a self-proclaimed wannabe world traveler.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed">
+              If you'd like to connect, feel free to reach out here or DM me on LinkedIn. I'd love the chance to work with you!
+            </p>
+
               
               {/* LinkedIn Button */}
               <div className="pt-4">
